@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr"><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Html 練習中</title>
+    <link rel="stylesheet" type="text/css" href="./Html 練習中_files/style.css">
+  </head>
+  <!-- 行とセル　テーブルのヘッダーとフッター　-->
+    <body>
+      <form action="file:///Users/ishikawashunji/Desktop/html_lesson2/index.html#" method="post">
+  <table class="main" border="1">
+    <thead>
+      <tr>
+        <th>日本語</th>
+        <th>英語</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span>長崎</span></td>
+        <td>Nagasaki</td>
+      </tr>
+      <tr>
+        <td>佐賀</td>
+        <td>Saga</td>
+      </tr>
+      <tr>
+        <td>福岡</td>
+        <td>Fukuoka</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="2"><span>最後までご覧頂き<br>ありがとうございました。</span></td>
+      </tr>
+    </tfoot>
+  </table>
+  <br>
+<!--　テキスト入力  -->
+  <fieldset class="main">
+    <legend><span>IDとパスワード</span></legend>
+    <label for="name">ID</label><input type="text" name="name" value="">
+    <br>
+    <label for="pass">パスワード</label><input type="password" name="pass" value="">
+    <br>
+  </fieldset>
+    <br>
+    <textarea name="name" rows="5" cols="40">テスト</textarea>
+    <br>
+  <fieldset class="main">
+    <legend>性別</legend>
+    <input type="radio" name="gender" value="male" id="male">
+    <label for="male"><span>男性</span></label>
+    <br>
+    <input type="radio" name="gender" value="female" id="female">
+    <label for="female">女性</label>
+    <br>
+  </fieldset>
+          <br>
+  <fieldset class="main">
+    <legend>音楽</legend>
+      <input type="checkbox" name="music" value="jazz"><span>jazz</span>
+      <br>
+      <input type="checkbox" name="music" value="pops">pops
+      <br>
+      <input type="checkbox" name="music" value="rock">rock
+      <br>
+      <button>何も起こらないボタン</button>
+  </fieldset>
+          <br>
+<!--ドロップダウンメニュー  -->
+<fieldset class="main">
+  <legend>住所</legend>
+    <select name="address">
+      <optgroup label="関東">
+        <option value="tokyo">東京</option>
+        <option value="tokyo">東京</option>
+        <option value="tokyo">東京</option>
+      </optgroup>
+      <optgroup label="関西">
+        <option value="osaka">大阪</option>
+        <option value="hyogo">兵庫</option>
+        <option value="kyoto">京都</option>
+      </optgroup>
+    </select>
+</fieldset>
+<br>
+  <input type="submit" value="送信">
+  </form>
+    </body>
+</html>
